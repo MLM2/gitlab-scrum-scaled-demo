@@ -33,6 +33,15 @@ Programs spanning multiple systems or teams (e.g., federated analytics platforms
 - Iteration cadences (2-week sprints)
 - Issue boards and Release Planning
 
+## 📚 Documentation
+
+| Topic                                                               | Summary                                                                                          |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| [`inheritance-model.md`](docs/inheritance-model.md)                 | Explains how GitLab’s group/project hierarchy supports consistent Scrum practices across teams   |
+| [`agile-boards-setup.md`](docs/agile-boards-setup.md)               | Shows how to configure epic, backlog, and sprint boards with scoped labels and iteration cadence |
+| [`sprint-planning-flow.md`](docs/sprint-planning-flow.md)           | Covers both synchronous and async sprint planning workflows using issue boards and weights       |
+| [`epic-story-task-breakdown.md`](docs/epic-story-task-breakdown.md) | Demonstrates vertical slicing from epics to stories to implementation tasks with real examples   |
+
 ## 📖 Learn More
 
 This demo is based on [GitLab’s official Scrum tutorial](https://docs.gitlab.com/ee/user/project/milestones/#use-gitlab-to-facilitate-scrum), adapted into a scaled scenario.
