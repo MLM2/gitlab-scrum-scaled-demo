@@ -1,0 +1,36 @@
+# .gitlab-ci.yml
+# Demo pipeline for educational purposes — not intended for production use
+
+variables:
+  DEFAULT_ENV: "dev"
+  DEFAULT_VERSION: "v1.0"
+
+stages:
+  - validate
+  - build
+  - deploy
+
+validate:
+  stage: validate
+  script:
+    - echo "✅ Validating configuration..."
+    - echo "ENV: $DEFAULT_ENV | VERSION: $DEFAULT_VERSION"
+
+build:
+  stage: build
+  script:
+    - echo "🏗️  Building application for $DEFAULT_ENV"
+    - echo "📦 Packaging version $DEFAULT_VERSION"
+
+deploy:
+  stage: deploy
+  script:
+    - echo "🚀 Deploying version $DEFAULT_VERSION to $DEFAULT_ENV"
+    - echo "🔐 Simulated deployment complete"
+
+# Optional: Trigger with custom variables
+# curl --request POST --form token=YOUR_TRIGGER_TOKEN \
+# --form ref=main \
+# --form "variables[DEFAULT_ENV]=test" \
+# --form "variables[DEFAULT_VERSION]=v2.1" \
+# https://gitlab.example.com/api/v4/projects/1234/trigger/pipeline
