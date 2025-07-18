@@ -64,6 +64,12 @@ All projects inherit:
 
 ---
 
+## Diagram## 🖼️ GitLab Inheritance Structure
+
+![GitLab Inheritance](../gitlab-inheritance-structure.png)
+
+
+
 ## ✅ Summary
 
 GitLab’s inheritance model is ideal for managing scaled Scrum delivery in environments with:
